@@ -1,0 +1,10 @@
+# KiCad lock files (open editor)
+~*.lck
+
+# Local backups
+*-backups/
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
