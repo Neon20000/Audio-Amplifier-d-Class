@@ -5,6 +5,189 @@
 	(uuid "088a2d00-6d5e-433a-8415-5bcf8a86884c")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -904,216 +1087,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NPN"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NPN"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "NPN bipolar junction transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BJT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_NPN_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NPN_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1467,7 +1440,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Driver_FET:IR2110"
+		(symbol "Driver_FET:IR2110S"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1484,7 +1457,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IR2110"
+			(property "Value" "IR2110S"
 				(at 1.27 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1495,7 +1468,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1518,7 +1491,7 @@
 					)
 				)
 			)
-			(property "Description" "High and Low Side Driver, 500V, 2.0/2.0A, PDIP-14"
+			(property "Description" "High and Low Side Driver, 500V, 2.0/2.0A, SOIC-16W"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1540,7 +1513,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1551,7 +1524,7 @@
 					)
 				)
 			)
-			(symbol "IR2110_0_1"
+			(symbol "IR2110S_0_1"
 				(rectangle
 					(start -5.08 -10.16)
 					(end 5.08 10.16)
@@ -1564,7 +1537,7 @@
 					)
 				)
 			)
-			(symbol "IR2110_1_1"
+			(symbol "IR2110S_1_1"
 				(pin output line
 					(at 7.62 -7.62 180)
 					(length 2.54)
@@ -1638,6 +1611,25 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
@@ -1648,7 +1640,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1666,7 +1658,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1684,116 +1676,7 @@
 							)
 						)
 					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "HIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -5.08 0)
-					(length 2.54)
-					(name "SD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "LIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -12.7 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1812,7 +1695,135 @@
 							)
 						)
 					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "HIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "SD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "LIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -12.7 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2447,6 +2458,235 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:Q_NPN_EBC"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NPN_EBC"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "NPN transistor, emitter/base/collector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NPN_EBC_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NPN_EBC_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3173,6 +3413,16 @@
 		)
 		(uuid "32b6e05d-94dd-45fc-9505-3f27c153357d")
 	)
+	(text "Плівка"
+		(exclude_from_sim no)
+		(at 78.486 235.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c4572a5-2ca4-447f-8c81-dfc9f1059f63")
+	)
 	(text "Світиться коли працює в нормальному режимі. Коли перегрузка гасне"
 		(exclude_from_sim no)
 		(at 290.068 221.234 0)
@@ -3194,6 +3444,16 @@
 		)
 		(uuid "776ae21e-124a-4f7d-bfc1-f10fb518ef02")
 	)
+	(text "Плівка"
+		(exclude_from_sim no)
+		(at 44.958 233.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8c8651a-92e9-4384-9d23-f011fdcd40a3")
+	)
 	(text "До 40 V"
 		(exclude_from_sim no)
 		(at 161.036 21.336 0)
@@ -3203,6 +3463,16 @@
 			)
 		)
 		(uuid "b1a1b0fc-9727-4384-b543-85192768711d")
+	)
+	(text "Електроліт"
+		(exclude_from_sim no)
+		(at 130.81 202.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e22657ce-37b5-4ff6-ab21-c22741057ec0")
 	)
 	(junction
 		(at 245.11 199.39)
@@ -3221,12 +3491,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08a62a2b-75ad-4a74-bd8c-7eca240e304c")
-	)
-	(junction
-		(at 35.56 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c93f99b-6e79-4dc3-926c-46bed94e7cbb")
 	)
 	(junction
 		(at 85.09 243.84)
@@ -3328,7 +3592,7 @@
 		(at 252.73 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4c3cd8f3-8ac8-455f-970b-fe86ab07f971")
+		(uuid "4c6f5fa6-80d3-4c82-bb9c-220096da1dec")
 	)
 	(junction
 		(at 64.77 49.53)
@@ -3359,6 +3623,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70146311-cace-4cf3-bfc0-478c5ceaccb4")
+	)
+	(junction
+		(at 35.56 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78b14bb6-1b7a-4c9b-9e84-1c0e05be80e6")
 	)
 	(junction
 		(at 140.97 213.36)
@@ -3571,12 +3841,6 @@
 		(uuid "e5aca9fb-0d26-496d-bc23-b751e97ed167")
 	)
 	(junction
-		(at 59.69 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e94d91b5-61f3-4324-9db0-f17056048a9f")
-	)
-	(junction
 		(at 59.69 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3762,6 +4026,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 107.95) (xy 40.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec342d2-3d85-4629-a9c1-b02d9f1e95af")
+	)
+	(wire
+		(pts
 			(xy 165.1 41.91) (xy 170.18 41.91)
 		)
 		(stroke
@@ -3829,6 +4103,16 @@
 			(type default)
 		)
 		(uuid "12c4c10b-69e6-4291-9131-789e66c8d5e5")
+	)
+	(wire
+		(pts
+			(xy 382.27 97.79) (xy 391.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137845ba-e9da-4134-8ca5-2a88a92aa8c5")
 	)
 	(wire
 		(pts
@@ -4122,16 +4406,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 154.94) (xy 64.77 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32511b02-8992-43dd-bcf1-5ee9307eebc6")
-	)
-	(wire
-		(pts
 			(xy 154.94 41.91) (xy 157.48 41.91)
 		)
 		(stroke
@@ -4392,6 +4666,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 101.6) (xy 48.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5555cb-852f-450a-a6e1-f422c1285ccd")
+	)
+	(wire
+		(pts
 			(xy 240.03 199.39) (xy 242.57 199.39)
 		)
 		(stroke
@@ -4409,6 +4693,16 @@
 			(type default)
 		)
 		(uuid "4fb7e220-0781-4f4f-899e-babb5268d7de")
+	)
+	(wire
+		(pts
+			(xy 48.26 105.41) (xy 40.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fed1256-29b1-4278-8adf-21e26e1d7c75")
 	)
 	(wire
 		(pts
@@ -4569,6 +4863,16 @@
 			(type default)
 		)
 		(uuid "5d84d5e4-bea5-4fc7-8c7f-89279e143eb1")
+	)
+	(wire
+		(pts
+			(xy 48.26 113.03) (xy 48.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e788de6-5a90-4b78-9c38-a5cf7e72f9a7")
 	)
 	(wire
 		(pts
@@ -4862,7 +5166,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 154.94) (xy 59.69 158.75)
+			(xy 59.69 152.4) (xy 59.69 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5292,6 +5596,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 148.59) (xy 71.12 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93840a18-edea-41d5-acde-e82cc11a54e9")
+	)
+	(wire
+		(pts
 			(xy 231.14 30.48) (xy 231.14 26.67)
 		)
 		(stroke
@@ -5672,16 +5986,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 152.4) (xy 59.69 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9ba82bb-d2e3-4f28-8d4d-9357889766f4")
-	)
-	(wire
-		(pts
 			(xy 356.87 22.86) (xy 356.87 25.4)
 		)
 		(stroke
@@ -6039,6 +6343,16 @@
 			(type default)
 		)
 		(uuid "ec52a9ed-0a63-4f1b-94f3-75a9ba77edcc")
+	)
+	(wire
+		(pts
+			(xy 382.27 95.25) (xy 391.16 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7c9017-49ad-44b8-b957-d1b8e0facf0a")
 	)
 	(wire
 		(pts
@@ -12786,6 +13100,30 @@
 			)
 		)
 	)
+	(global_label "Out1"
+		(shape input)
+		(at 382.27 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51f5dc46-3878-47c5-b0fc-e191ea61b8c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 374.8701 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Вих1"
 		(shape input)
 		(at 59.69 140.97 90)
@@ -13076,7 +13414,7 @@
 	)
 	(global_label "Уст.0"
 		(shape input)
-		(at 64.77 154.94 0)
+		(at 71.12 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13086,7 +13424,7 @@
 		)
 		(uuid "829f31f3-4264-42bb-a7e7-97b5abf46fe4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.7143 154.94 0)
+			(at 79.0643 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13095,6 +13433,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "Out2"
+		(shape input)
+		(at 382.27 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84f3f846-4a47-461a-b253-6ddef6be044a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 374.8701 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -13981,7 +14343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 34.29 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -14024,85 +14386,6 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.69 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "09140c53-39e9-4e05-b9e5-5baf919c4442")
-		(property "Reference" "R31"
-			(at 64.77 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k5"
-			(at 64.77 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 59.69 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ed0fda1-1ac7-406d-917f-815096b09613")
-		)
-		(pin "2"
-			(uuid "e198d4fd-4372-4241-8399-be8e89222a8b")
-		)
-		(instances
-			(project "Audio_Amplifier d class"
-				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
-					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -14180,121 +14463,6 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "#PWR12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_FET:IR2110")
-		(at 35.56 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "12c3018b-e579-42f1-b2ca-c85e9aeede46")
-		(property "Reference" "IC1"
-			(at 32.766 42.418 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IR2110"
-			(at 34.544 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 35.56 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e30c28e-dc24-4dd8-9831-8269fdb65721")
-		)
-		(pin "2"
-			(uuid "75e9d040-68ea-487d-9b82-959a605f4379")
-		)
-		(pin "3"
-			(uuid "d66a313a-f8f0-42c1-b448-8538084a1b26")
-		)
-		(pin "4"
-			(uuid "c3e7635f-bee4-446d-99cd-bb9fae3393e0")
-		)
-		(pin "5"
-			(uuid "b21e5dee-3c13-40ae-af2c-57dbf61682e0")
-		)
-		(pin "6"
-			(uuid "dade0392-26f6-4c45-a1b5-b55c181156eb")
-		)
-		(pin "7"
-			(uuid "385278dd-28be-45f4-b3a6-d57cb2068f75")
-		)
-		(pin "8"
-			(uuid "fa701885-ae03-4757-87b3-35c02fdaef6d")
-		)
-		(pin "9"
-			(uuid "39cd8aa7-6300-4987-a687-aa922237fd88")
-		)
-		(pin "10"
-			(uuid "6837e9d8-a169-4cba-9488-ac69db8bd414")
-		)
-		(pin "11"
-			(uuid "5eafb85f-ecca-46cb-bf7f-8d5c448c1c07")
-		)
-		(pin "12"
-			(uuid "c68387ad-4c57-45f1-9c90-51243d9d76f4")
-		)
-		(pin "13"
-			(uuid "93035f35-7d27-4090-9886-2acf44a40534")
-		)
-		(pin "14"
-			(uuid "4ffd9f66-7434-4dc7-bb53-ed1d9435c608")
-		)
-		(instances
-			(project "Audio_Amplifier d class"
-				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
-					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -14449,6 +14617,190 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "#PWR211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18cd470d-3653-463c-87f6-9856df6dba34")
+		(property "Reference" "#PWR036"
+			(at 53.34 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fc17ebe-1f93-46b1-b0ab-9f17f824ba2c")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_NPN_EBC")
+		(at 234.95 254 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b378f65-6334-4f33-b346-a0a74cc96be2")
+		(property "Reference" "VT5"
+			(at 229.87 252.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NPN_EBC"
+			(at 229.87 255.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 229.87 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 234.95 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 234.95 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 234.95 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f4a0a384-dcf9-487d-b950-b4bc3da19cec")
+		)
+		(pin "2"
+			(uuid "3f7cbbca-64f6-4953-9c25-c80a35eda5ab")
+		)
+		(pin "1"
+			(uuid "bc8b37eb-b5f5-467f-adf7-c28cbfb91e44")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "VT5")
 					(unit 1)
 				)
 			)
@@ -14786,7 +15138,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "47u"
 			(at 51.562 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14796,7 +15148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
 			(at 54.61 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -15422,7 +15774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 59.69 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -15501,7 +15853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
 			(at 41.91 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -15580,7 +15932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 274.32 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -15659,7 +16011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 259.08 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -15708,6 +16060,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 48.26 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c124484-bf13-4e32-a07b-729a28f27a89")
+		(property "Reference" "#PWR035"
+			(at 53.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 53.34 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bb393c3-489b-4b6a-9258-a9fffbb30eab")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 49.53 34.29 90)
 		(unit 1)
@@ -15738,7 +16167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 41.91 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15781,6 +16210,131 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "VD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:IR2110S")
+		(at 35.56 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c495eb1-17b2-4e71-a3e7-070245e744a1")
+		(property "Reference" "U2"
+			(at 37.7033 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR2110S"
+			(at 37.7033 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 35.56 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e"
+			(at 35.56 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High and Low Side Driver, 500V, 2.0/2.0A, SOIC-16W"
+			(at 35.56 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "895e1a75-dced-4745-b7b1-ccfaf53ed4e6")
+		)
+		(pin "15"
+			(uuid "ecc8b4d3-f8b0-4883-9905-8329a7449e5f")
+		)
+		(pin "8"
+			(uuid "38648b52-321b-4c1d-8472-a51db594aa94")
+		)
+		(pin "11"
+			(uuid "835cd6d5-2603-4ddd-9549-37c212d8943e")
+		)
+		(pin "10"
+			(uuid "1d41401c-b297-44e7-9adb-8ea70d6b38be")
+		)
+		(pin "6"
+			(uuid "82c2592d-dea1-4c50-a65a-7a99ae36b37f")
+		)
+		(pin "1"
+			(uuid "acc28b91-421f-4ede-9ee7-c9df99d537d8")
+		)
+		(pin "2"
+			(uuid "96d62f2b-c426-4134-a804-3c9e61c4f24a")
+		)
+		(pin "3"
+			(uuid "3ec45e9c-0b76-49bc-8ee5-a563e5ce8808")
+		)
+		(pin "5"
+			(uuid "cf8e2226-36ff-463e-921b-20e2a75b49ba")
+		)
+		(pin "14"
+			(uuid "413a3245-ef30-4349-8d59-e5d8065be527")
+		)
+		(pin "16"
+			(uuid "d698f9b3-f1e3-4a8a-bf5d-b54c96e72756")
+		)
+		(pin "9"
+			(uuid "953cc506-05ab-49ad-a2fa-ff0eb77e2132")
+		)
+		(pin "7"
+			(uuid "4a4c6f49-6f8a-4ddc-aa8c-98729a39b252")
+		)
+		(pin "13"
+			(uuid "2214ec2c-f9f6-4bb4-a450-c362cd96c270")
+		)
+		(pin "4"
+			(uuid "984c75cc-bcc6-40e6-87f6-720e33248d0b")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -15864,6 +16418,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 35.56 105.41 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "502bc1ec-c86f-4f64-9772-a3e854cdc141")
+		(property "Reference" "J1"
+			(at 34.29 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 34.29 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 35.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 35.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "02c1c0c3-0630-4026-808e-c8df456e7bb2")
+		)
+		(pin "1"
+			(uuid "1eede4a2-f991-4816-91b1-cef4deba9a7c")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 59.69 162.56 0)
 		(unit 1)
@@ -15894,7 +16530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 59.69 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -16413,6 +17049,88 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 396.24 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68f97dce-3754-425d-8e3f-bd1ac68fcdc9")
+		(property "Reference" "J2"
+			(at 397.51 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 397.51 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 396.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 396.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3ecad34-e94d-4bf3-bfe8-1672008bcf0d")
+		)
+		(pin "2"
+			(uuid "90180007-35aa-474d-962b-6e70b845b069")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -17077,7 +17795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Axial_L14.5mm_D5.8mm_P25.40mm_Horizontal_Fastron_HBCC"
 			(at 161.29 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17624,7 +18342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 78.74 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -18394,121 +19112,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_FET:IR2110")
-		(at 252.73 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9a6e4b73-63b2-451b-b5c3-0df754098cd9")
-		(property "Reference" "IC2"
-			(at 249.682 40.894 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IR2110"
-			(at 251.714 42.672 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3080b6c3-9a6f-4ed9-bb9e-00ddcb47859f")
-		)
-		(pin "2"
-			(uuid "7cf8ba85-c617-4d05-b07c-927e1d31fb9b")
-		)
-		(pin "3"
-			(uuid "c8c03f5b-d7fd-4213-bab3-bf264e7e1f5d")
-		)
-		(pin "4"
-			(uuid "9db35547-65db-479e-8b4e-eb40c4e0d7c3")
-		)
-		(pin "5"
-			(uuid "0e893a87-026f-4644-b5eb-f29440eb6a0a")
-		)
-		(pin "6"
-			(uuid "4899cd74-d5b7-438d-9739-da717e71d87d")
-		)
-		(pin "7"
-			(uuid "5ac65aa0-c4d6-43cd-8553-8d71e8d1e349")
-		)
-		(pin "8"
-			(uuid "50279114-324b-443a-a429-3128a959b823")
-		)
-		(pin "9"
-			(uuid "933d4c9d-73cd-40f2-b79d-e8db2095e735")
-		)
-		(pin "10"
-			(uuid "50f2d2e0-57cf-4695-8435-f4e986c20199")
-		)
-		(pin "11"
-			(uuid "bd4b4b0f-ec74-4e92-85f1-5eb29b636dcb")
-		)
-		(pin "12"
-			(uuid "9063f0df-352d-4cf1-9a21-e8f2f8c0f5dd")
-		)
-		(pin "13"
-			(uuid "770631ed-9041-403b-932b-0de440ea43de")
-		)
-		(pin "14"
-			(uuid "e19875c0-76b5-4989-80b8-db6ed9b59f33")
-		)
-		(instances
-			(project "Audio_Amplifier d class"
-				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 41.91 196.85 90)
 		(unit 1)
@@ -18539,7 +19142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 41.91 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -18582,89 +19185,6 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN")
-		(at 234.95 254 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9b04c4df-d500-4b3a-adf1-39851276da6c")
-		(property "Reference" "VT5"
-			(at 229.87 251.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2n2222A"
-			(at 228.854 257.556 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 234.95 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B"
-			(uuid "f8dbf33c-65f1-4dac-840a-adee640a9fc1")
-		)
-		(pin "C"
-			(uuid "51577103-ef29-4d7c-8509-7ca934cc5b42")
-		)
-		(pin "E"
-			(uuid "e3981d17-dad2-42b6-b54e-186706a905b3")
-		)
-		(instances
-			(project "Audio_Amplifier d class"
-				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
-					(reference "VT5")
 					(unit 1)
 				)
 			)
@@ -18858,7 +19378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 53.34 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -19485,7 +20005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 66.04 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -19642,7 +20162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 34.29 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -19685,6 +20205,131 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:IR2110S")
+		(at 252.73 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b944f55d-2108-43b4-b099-413b64b55fb6")
+		(property "Reference" "U1"
+			(at 254.8733 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR2110S"
+			(at 254.8733 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 252.73 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e"
+			(at 252.73 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High and Low Side Driver, 500V, 2.0/2.0A, SOIC-16W"
+			(at 252.73 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "f6fca6d4-a3c1-4195-b00e-8c2ef9af9a16")
+		)
+		(pin "15"
+			(uuid "c218fd7a-0845-4494-bb03-b753030020b4")
+		)
+		(pin "8"
+			(uuid "5470b759-df41-4b64-86c4-03f1798e9b3a")
+		)
+		(pin "11"
+			(uuid "beb35ff4-d0eb-470d-8bb5-820b9dd7c068")
+		)
+		(pin "10"
+			(uuid "da1e4d02-6603-441d-a5a5-e52fe8042427")
+		)
+		(pin "6"
+			(uuid "f71e3724-f00d-4ce7-985d-5d21950d7181")
+		)
+		(pin "1"
+			(uuid "6ddf5c6d-3721-43e8-8cc4-4b00f612494e")
+		)
+		(pin "2"
+			(uuid "6c9263ea-2a25-4157-8ff6-e47a80e8775e")
+		)
+		(pin "3"
+			(uuid "fcd3ab55-9fa6-4b70-bb57-f5e0e1609ab2")
+		)
+		(pin "5"
+			(uuid "51bec862-04be-4d5c-a25e-65a8a41335d1")
+		)
+		(pin "14"
+			(uuid "93b848c1-56a7-40ed-875e-5e4857d2d8f5")
+		)
+		(pin "16"
+			(uuid "d857a4dd-2072-4354-9158-aaa8afaa674d")
+		)
+		(pin "9"
+			(uuid "5455363d-f835-4663-96da-4af68d21a2ec")
+		)
+		(pin "7"
+			(uuid "aace78a0-19dc-47a6-b511-8a1846e7f133")
+		)
+		(pin "13"
+			(uuid "aaba063b-bd7d-4d00-b6a8-7b5a71746211")
+		)
+		(pin "4"
+			(uuid "04fdf286-35ee-493d-a519-1cc82d18fe68")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -19799,7 +20444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 287.02 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -20123,7 +20768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 48.26 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -20417,7 +21062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce9f3a8c-57f2-4e50-a074-cc412bcd1290")
-		(property "Reference" "C3"
+		(property "Reference" "C33"
 			(at 276.098 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20479,7 +21124,7 @@
 		(instances
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
-					(reference "C3")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -20595,7 +21240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 49.8348 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -21943,6 +22588,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 59.69 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd86d448-a9eb-4063-8267-96ce54b97918")
+		(property "Reference" "R20"
+			(at 62.738 145.796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 62.23 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 59.69 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "799e678c-c48d-436a-862f-ce07c8fd9bc4")
+		)
+		(pin "2"
+			(uuid "563e41d5-65cc-41c0-8652-2493d7609032")
+		)
+		(pin "3"
+			(uuid "5e31f03a-ef4b-45f3-a152-7a25f4fede23")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 363.22 44.45 90)
 		(unit 1)
@@ -21973,7 +22700,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Axial_L14.5mm_D5.8mm_P25.40mm_Horizontal_Fastron_HBCC"
 			(at 363.22 44.45 0)
 			(hide yes)
 			(show_name no)
