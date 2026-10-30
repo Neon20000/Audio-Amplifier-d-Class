@@ -148,7 +148,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -210,7 +210,12 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        1.0,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -242,6 +247,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -674,7 +687,7 @@
         "uuid": "088a2d00-6d5e-433a-8415-5bcf8a86884c"
       }
     ],
-    "used_designators": "U1-3,L2-3,D1,#PWR1-2,#PWR6-11,#PWR17,#PWR21,#PWR23-24,#PWR26-28,#PWR30-36,#PWR40-42,#PWR203,#PWR212-214,#PWR220-223,C2-3,C9,C11,C13-20,C23-30,R3-4,R6-8,R10-11,R20,R23-34,VT2-4,VT6-7,VD4-5,VD7-9,J1-2,Q1",
+    "used_designators": "U1-3,L2-3,D1,#PWR1-2,#PWR6-11,#PWR17,#PWR21,#PWR23-24,#PWR26-28,#PWR30-36,#PWR40-42,#PWR203,#PWR212-214,#PWR220-223,C2-3,C9,C11,C13-20,C23-32,R3-4,R6-8,R10-11,R20,R23-34,VT2-4,VT6-7,VD4-5,VD7-9,J1-3,Q1",
     "variants": []
   },
   "sheets": [
