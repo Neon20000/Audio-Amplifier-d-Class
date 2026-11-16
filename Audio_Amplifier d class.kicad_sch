@@ -708,6 +708,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2936,6 +3114,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Switching:AP63200WU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP63200WU"
+				(at 2.54 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "2A Buck DC/DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TSOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AP63200WU_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP63200WU_1_1"
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Timer:NE555D"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4203,6 +4587,12 @@
 		(uuid "08a62a2b-75ad-4a74-bd8c-7eca240e304c")
 	)
 	(junction
+		(at 391.16 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ec1086e-08c6-44c1-b0da-b77757c465f9")
+	)
+	(junction
 		(at 85.09 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4273,6 +4663,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b0817a9-3148-4485-b936-eddc9d6320fa")
+	)
+	(junction
+		(at 335.28 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b6138a1-872d-4a3b-9b95-c9b4075949aa")
 	)
 	(junction
 		(at 123.19 218.44)
@@ -4395,6 +4791,12 @@
 		(uuid "879d1168-c91c-43ac-8c52-d4f30c8d81c5")
 	)
 	(junction
+		(at 394.97 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90ba0a6d-e1bc-47a8-8d48-fc04919ff79b")
+	)
+	(junction
 		(at 57.15 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4495,6 +4897,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acd2f307-fc50-40fc-a26c-3d45a3e4857f")
+	)
+	(junction
+		(at 374.65 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad906c74-e145-4d8b-9883-7dfca172d0b1")
 	)
 	(junction
 		(at 34.29 170.18)
@@ -5068,6 +5476,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 168.91) (xy 344.17 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c70e24e-7850-42d6-97fe-68481336cddc")
+	)
+	(wire
+		(pts
 			(xy 365.76 41.91) (xy 365.76 44.45)
 		)
 		(stroke
@@ -5145,6 +5563,16 @@
 			(type default)
 		)
 		(uuid "24c13a16-82cb-405a-a545-f8e2e11b8916")
+	)
+	(wire
+		(pts
+			(xy 364.49 158.75) (xy 374.65 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250c9138-6a92-48cc-ae86-5e1890318e0f")
 	)
 	(wire
 		(pts
@@ -5438,6 +5866,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 168.91) (xy 364.49 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c2cd3b-c6d2-4ea5-9f03-aa593947b069")
+	)
+	(wire
+		(pts
 			(xy 59.69 208.28) (xy 59.69 217.17)
 		)
 		(stroke
@@ -5555,6 +5993,16 @@
 			(type default)
 		)
 		(uuid "449622fb-f699-4b3e-9169-774740fe7cea")
+	)
+	(wire
+		(pts
+			(xy 364.49 171.45) (xy 374.65 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453be7e9-d8ec-40ae-a425-fa41cf79cb09")
 	)
 	(wire
 		(pts
@@ -5728,6 +6176,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 180.34) (xy 394.97 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eaef5e7-3088-4f64-bd4f-cbd925fb2bde")
+	)
+	(wire
+		(pts
 			(xy 154.94 16.51) (xy 154.94 22.86)
 		)
 		(stroke
@@ -5788,6 +6246,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 179.07) (xy 354.33 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527d66bb-c796-4cca-a252-653a004324b3")
+	)
+	(wire
+		(pts
 			(xy 190.5 41.91) (xy 191.77 41.91)
 		)
 		(stroke
@@ -5818,6 +6286,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 171.45) (xy 391.16 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c8343b-8eec-4fc1-8a24-9f9b9a40cdac")
+	)
+	(wire
+		(pts
 			(xy 231.14 201.93) (xy 231.14 199.39)
 		)
 		(stroke
@@ -5825,6 +6303,26 @@
 			(type default)
 		)
 		(uuid "5420d672-f3df-47fa-8324-9672fb9b47b2")
+	)
+	(wire
+		(pts
+			(xy 401.32 171.45) (xy 394.97 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d009fe-e30e-469e-a9af-598035acdd07")
+	)
+	(wire
+		(pts
+			(xy 374.65 171.45) (xy 378.46 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ea3251-2728-4af4-9486-734ac33818fa")
 	)
 	(wire
 		(pts
@@ -5865,16 +6363,6 @@
 			(type default)
 		)
 		(uuid "5994cb1c-5582-4b99-92b3-43510ec490ef")
-	)
-	(wire
-		(pts
-			(xy 160.02 44.45) (xy 157.48 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c2c2c9-664d-4208-8b14-3be42a554ff3")
 	)
 	(wire
 		(pts
@@ -5985,6 +6473,16 @@
 			(type default)
 		)
 		(uuid "62bf341e-4425-42fe-b9f0-ff11d547d283")
+	)
+	(wire
+		(pts
+			(xy 374.65 171.45) (xy 374.65 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634c46e1-1181-4fe3-8cd7-7fc502ca10c1")
 	)
 	(wire
 		(pts
@@ -6118,6 +6616,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 172.72) (xy 394.97 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df3545b-5a16-42c0-bf2c-60d1012a40f1")
+	)
+	(wire
+		(pts
 			(xy 245.11 265.43) (xy 252.73 265.43)
 		)
 		(stroke
@@ -6175,6 +6683,16 @@
 			(type default)
 		)
 		(uuid "6f2542c0-51a0-4e5e-ac31-3d20701de749")
+	)
+	(wire
+		(pts
+			(xy 401.32 180.34) (xy 401.32 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70dfbf82-7483-4cc2-b394-433b68730de2")
 	)
 	(wire
 		(pts
@@ -6415,6 +6933,16 @@
 			(type default)
 		)
 		(uuid "811e2b4f-5935-4aa9-a772-7846d4112209")
+	)
+	(wire
+		(pts
+			(xy 401.32 172.72) (xy 401.32 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8243e13f-b15c-4cc7-bc46-66ceb1a044ce")
 	)
 	(wire
 		(pts
@@ -6788,6 +7316,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 158.75) (xy 374.65 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972ed2dd-639e-4805-b548-029319b48a98")
+	)
+	(wire
+		(pts
 			(xy 332.74 44.45) (xy 334.01 44.45)
 		)
 		(stroke
@@ -7158,6 +7696,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 168.91) (xy 335.28 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3813f10-b849-4b5f-bc9f-4d3056cf7935")
+	)
+	(wire
+		(pts
 			(xy 276.86 49.53) (xy 276.86 52.07)
 		)
 		(stroke
@@ -7228,6 +7776,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 171.45) (xy 391.16 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9cc7c04-5afb-4b8a-afea-6426b6ae1fe1")
+	)
+	(wire
+		(pts
 			(xy 332.74 24.13) (xy 332.74 25.4)
 		)
 		(stroke
@@ -7248,13 +7806,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 41.91) (xy 157.48 44.45)
+			(xy 335.28 173.99) (xy 335.28 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd4e945e-56c3-4a3a-bddf-76a642ea69d9")
+		(uuid "bf0df564-64af-4fd7-b4cf-752ebbe57bc7")
 	)
 	(wire
 		(pts
@@ -7498,6 +8056,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 173.99) (xy 364.49 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95b03b9-be98-4c25-864f-92c670078584")
+	)
+	(wire
+		(pts
 			(xy 303.53 31.75) (xy 303.53 38.1)
 		)
 		(stroke
@@ -7558,6 +8126,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 171.45) (xy 323.85 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b1c36a-2dcc-4aa5-9d34-1799f24626db")
+	)
+	(wire
+		(pts
 			(xy 226.06 236.22) (xy 232.41 236.22)
 		)
 		(stroke
@@ -7568,6 +8146,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 179.07) (xy 323.85 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4579025-f430-4953-94e0-e0b76ece06e8")
+	)
+	(wire
+		(pts
 			(xy 123.19 218.44) (xy 138.43 218.44)
 		)
 		(stroke
@@ -7575,6 +8163,16 @@
 			(type default)
 		)
 		(uuid "e54d671f-710b-497e-aa5a-140eea536957")
+	)
+	(wire
+		(pts
+			(xy 344.17 173.99) (xy 335.28 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a1dcf3-50c8-44a9-8582-a4e9ab86cccb")
 	)
 	(wire
 		(pts
@@ -7615,6 +8213,16 @@
 			(type default)
 		)
 		(uuid "e9e6b732-f5f5-423b-9c74-667206cebea3")
+	)
+	(wire
+		(pts
+			(xy 394.97 171.45) (xy 391.16 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea49aa32-a48a-4ce7-aaab-b5abb829205e")
 	)
 	(wire
 		(pts
@@ -16015,6 +16623,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 323.85 175.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1492f7d8-80df-4fc9-9017-eec15f819ce3")
+		(property "Reference" "C34"
+			(at 325.882 173.228 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 325.882 177.546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 323.85 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7a40561-17cb-4dd7-94e3-d264de94bfdf")
+		)
+		(pin "2"
+			(uuid "148d6615-4267-4c45-97a5-ae90542c3af0")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 242.57 234.95 0)
 		(unit 1)
@@ -18543,6 +19230,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 323.85 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "566373cc-ba67-4abd-a000-89621d0c9509")
+		(property "Reference" "#PWR0225"
+			(at 328.93 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 328.93 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67604b8a-9ff7-4adb-92c6-94ae07a0f97c")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 59.69 162.56 0)
 		(unit 1)
@@ -19189,88 +19953,6 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 165.1 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f67cd94-0565-4de5-a923-400451acdab5")
-		(property "Reference" "JP9"
-			(at 165.1 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 165.1 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 165.1 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 165.1 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d6be3be-09fb-4f98-8ed7-34f73f46d640")
-		)
-		(pin "2"
-			(uuid "7fa55bf7-0ab2-46f9-b935-f2b3c13acec7")
-		)
-		(instances
-			(project "Audio_Amplifier d class"
-				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
-					(reference "JP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 359.41 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -19508,6 +20190,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 394.97 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67b14a61-5477-42e0-89ea-eafca3ac3adc")
+		(property "Reference" "#PWR0226"
+			(at 400.05 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 397.256 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 394.97 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 394.97 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88196528-5746-4ef4-86dd-f1768e028744")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "#PWR0226")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 394.97 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "684c3a8b-5b60-45bb-9dc6-232a7359dd20")
+		(property "Reference" "C36"
+			(at 397.002 174.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u"
+			(at 397.002 178.816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 394.0048 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 394.97 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "68843b6e-803b-4bbe-bd75-a02a94b5909d")
+		)
+		(pin "1"
+			(uuid "ca7b45dc-3ba9-477e-bc64-7467159b01ae")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 396.24 95.25 0)
 		(unit 1)
@@ -19584,6 +20422,98 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:AP63200WU")
+		(at 354.33 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "692f3f55-1379-40e6-8e6a-043e001226b1")
+		(property "Reference" "U3"
+			(at 354.33 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP63200WU"
+			(at 354.33 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 354.33 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 354.33 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"
+			(at 354.33 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f6845bed-9582-47ad-ad27-4fac260e4b1b")
+		)
+		(pin "5"
+			(uuid "c9ac1e42-f173-4f56-a1a0-36257d8e2fa9")
+		)
+		(pin "3"
+			(uuid "18ff32e5-373a-4c8e-b442-9bfb9ea5dffa")
+		)
+		(pin "4"
+			(uuid "f82404ef-001b-4cc7-b394-64d6c752879d")
+		)
+		(pin "1"
+			(uuid "e268221f-9d4d-4cf9-9e13-df9736b20828")
+		)
+		(pin "6"
+			(uuid "f1e403fb-c9f4-462c-a4a8-37fe8aee2c95")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -20845,6 +21775,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 401.32 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83062641-75ed-47ed-bc2b-5e7a24b55ba2")
+		(property "Reference" "#PWR0227"
+			(at 406.4 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 406.4 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 401.32 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 401.32 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e775d267-f7cb-4d4e-a2ab-1477d89ddea8")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 144.78 229.87 0)
 		(unit 1)
@@ -20918,88 +21925,6 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 165.1 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86d42fa9-27d7-484a-9e70-a1fa1dcf152c")
-		(property "Reference" "JP7"
-			(at 165.1 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 165.1 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 165.1 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 165.1 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30c96781-f330-44dd-a89c-264e2bebd579")
-		)
-		(pin "2"
-			(uuid "f04926e5-6d86-47d2-a41a-7da1e6b44b0d")
-		)
-		(instances
-			(project "Audio_Amplifier d class"
-				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
-					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -21732,6 +22657,83 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 354.33 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "949a6555-c80f-4ca7-842f-07d57b9e91bc")
+		(property "Reference" "#PWR0224"
+			(at 359.41 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 359.41 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 354.33 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7117463f-8e6b-4ee9-8041-83f4c1dba014")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -23589,88 +24591,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 165.1 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd6aa9a1-ca16-4a2e-9f16-e6ec1d3ba319")
-		(property "Reference" "JP8"
-			(at 165.1 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 165.1 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 165.1 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 165.1 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f86ad69c-d321-4f7f-b0de-edfbaebd9642")
-		)
-		(pin "2"
-			(uuid "a6cf5db6-b4ed-4c73-bb05-3ccdb24b62bc")
-		)
-		(instances
-			(project "Audio_Amplifier d class"
-				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
-					(reference "JP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 287.02 217.17 0)
 		(unit 1)
@@ -23756,6 +24676,85 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 401.32 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf043875-9d08-4725-86cb-85d9b6c3c863")
+		(property "Reference" "C37"
+			(at 403.606 174.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u"
+			(at 403.606 178.816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 400.3548 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 401.32 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c2570f9d-9e55-4612-8d69-8f2868c0aa23")
+		)
+		(pin "1"
+			(uuid "380be91c-e918-469e-841c-18343f1db270")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -25376,6 +26375,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 382.27 171.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e90e3b3c-490f-4db6-adbd-5de73e098c1e")
+		(property "Reference" "L1"
+			(at 382.27 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uH"
+			(at 382.27 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 382.27 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7ae6261-15de-4b1d-af98-0da689332976")
+		)
+		(pin "1"
+			(uuid "c2b32872-1ec1-494d-876e-c422330cd6c9")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 236.22 199.39 270)
 		(mirror x)
@@ -25450,6 +26529,85 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 374.65 165.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ecbd0311-d177-414e-8ea3-bdbfb69af5aa")
+		(property "Reference" "C35"
+			(at 376.682 163.068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nf"
+			(at 381.762 163.068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 374.65 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 374.65 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daff600f-9e0f-4832-bebd-73c867b867d6")
+		)
+		(pin "2"
+			(uuid "08739cdf-718c-4115-a3f0-7aeacbfb7abc")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "C35")
 					(unit 1)
 				)
 			)
