@@ -2102,8 +2102,20 @@
 			)
 			(symbol "L_1_0_1"
 				(rectangle
-					(start 0 5.715)
+					(start -1.27 5.715)
 					(end 5.08 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 1.27) (xy 0 3.81) (xy -1.27 3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2259,7 +2271,7 @@
 			)
 			(symbol "L_1_1_1"
 				(pin passive line
-					(at -1.27 3.81 0)
+					(at -2.54 3.81 0)
 					(length 1.27)
 					(name "1"
 						(effects
@@ -2295,7 +2307,7 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 1.27 0)
+					(at 6.35 1.27 180)
 					(length 1.27)
 					(name "3"
 						(effects
@@ -2313,7 +2325,7 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 1.27 180)
+					(at 6.35 -1.27 180)
 					(length 1.27)
 					(name "4"
 						(effects
@@ -2323,42 +2335,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -1.27 0)
-					(length 1.27)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -1.27 180)
-					(length 1.27)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2382,7 +2358,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L2"
+			(property "Reference" "L3"
 				(at 5.207 6.985 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2459,8 +2435,20 @@
 			)
 			(symbol "L_2_0_1"
 				(rectangle
-					(start 0 5.715)
+					(start -1.27 5.715)
 					(end 5.08 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 1.27) (xy 0 3.81) (xy -1.27 3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2616,7 +2604,7 @@
 			)
 			(symbol "L_2_1_1"
 				(pin passive line
-					(at -1.27 3.81 0)
+					(at -2.54 3.81 0)
 					(length 1.27)
 					(name "1"
 						(effects
@@ -2652,7 +2640,7 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 1.27 0)
+					(at 6.35 1.27 180)
 					(length 1.27)
 					(name "3"
 						(effects
@@ -2670,52 +2658,16 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 1.27 180)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -1.27 0)
-					(length 1.27)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 6.35 -1.27 180)
 					(length 1.27)
-					(name "6"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4575,12 +4527,6 @@
 		(uuid "0408f504-f55f-44b9-9233-0511731f99b4")
 	)
 	(junction
-		(at 332.74 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08571172-9a08-4cba-9e32-7627e21e94f1")
-	)
-	(junction
 		(at 231.14 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4713,22 +4659,10 @@
 		(uuid "41f6dd45-c7df-4a9b-99cb-89792854c191")
 	)
 	(junction
-		(at 157.48 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a82adf1-5ac7-49c7-b004-c25b415971ec")
-	)
-	(junction
 		(at 252.73 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c6f5fa6-80d3-4c82-bb9c-220096da1dec")
-	)
-	(junction
-		(at 332.74 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d4a1b50-b338-4540-8723-dcedda25cf60")
 	)
 	(junction
 		(at 64.77 49.53)
@@ -4771,12 +4705,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78ea7227-da2d-4692-9ef4-cbb5c8e0de1d")
-	)
-	(junction
-		(at 332.74 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8589789d-bf66-4c2a-9f33-a068047606cf")
 	)
 	(junction
 		(at 229.87 219.71)
@@ -4881,6 +4809,12 @@
 		(uuid "a7a472c5-106e-42a4-9951-35c6321fd576")
 	)
 	(junction
+		(at 332.74 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7afdae2-5f40-41a4-8001-f11109c7ed6e")
+	)
+	(junction
 		(at 274.32 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4935,6 +4869,12 @@
 		(uuid "c2d1a049-57f3-43db-8c6c-1532bc5fca8f")
 	)
 	(junction
+		(at 323.85 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c39152a4-f51a-4155-9146-c5db82c33cdc")
+	)
+	(junction
 		(at 57.15 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4957,6 +4897,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf432afd-9c01-4237-8118-cd2ccb4dbf82")
+	)
+	(junction
+		(at 401.32 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d457fc9e-c56b-4a2f-a858-38c43450ab38")
 	)
 	(junction
 		(at 245.11 205.74)
@@ -5056,16 +5002,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 41.91) (xy 334.01 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00242669-a0d3-4f39-8d0e-3483d4e1114a")
-	)
-	(wire
-		(pts
 			(xy 245.11 256.54) (xy 245.11 254)
 		)
 		(stroke
@@ -5123,16 +5059,6 @@
 			(type default)
 		)
 		(uuid "06430831-c136-42dd-8545-abee05009c07")
-	)
-	(wire
-		(pts
-			(xy 344.17 46.99) (xy 345.44 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07ba0fec-0245-4226-aa1b-42a0f9aa7654")
 	)
 	(wire
 		(pts
@@ -5213,16 +5139,6 @@
 			(type default)
 		)
 		(uuid "0ce93e96-dce1-4571-8064-a6648497409f")
-	)
-	(wire
-		(pts
-			(xy 344.17 44.45) (xy 345.44 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cf9301c-0667-435a-a2ea-1f262f535c90")
 	)
 	(wire
 		(pts
@@ -5316,16 +5232,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 46.99) (xy 334.01 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11a1c359-e9e6-4ff4-b8b2-1d5e1188a611")
-	)
-	(wire
-		(pts
 			(xy 332.74 25.4) (xy 339.09 25.4)
 		)
 		(stroke
@@ -5406,7 +5312,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 39.37) (xy 157.48 39.37)
+			(xy 157.48 39.37) (xy 170.18 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5593,16 +5499,6 @@
 			(type default)
 		)
 		(uuid "26ba0303-4805-4515-afdd-4c9db0402658")
-	)
-	(wire
-		(pts
-			(xy 170.18 41.91) (xy 171.45 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26e2c89b-5b16-47f2-b5a7-9440a7722dde")
 	)
 	(wire
 		(pts
@@ -6096,16 +5992,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 39.37) (xy 171.45 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49ccc853-9b49-4d77-8df0-dfb8eed002f2")
-	)
-	(wire
-		(pts
 			(xy 106.68 228.6) (xy 110.49 228.6)
 		)
 		(stroke
@@ -6406,7 +6292,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 45.72) (xy 332.74 46.99)
+			(xy 332.74 45.72) (xy 332.74 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6626,6 +6512,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 168.91) (xy 323.85 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1af3ae-0a38-404f-be91-572ea72e577e")
+	)
+	(wire
+		(pts
 			(xy 245.11 265.43) (xy 252.73 265.43)
 		)
 		(stroke
@@ -6786,6 +6682,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 41.91) (xy 332.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783c6e57-4f8c-40a1-9576-ff2822125994")
+	)
+	(wire
+		(pts
 			(xy 353.06 44.45) (xy 354.33 44.45)
 		)
 		(stroke
@@ -6916,16 +6822,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 44.45) (xy 171.45 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80ac1f8f-9a2d-488f-92ca-1ddbb4c4122a")
-	)
-	(wire
-		(pts
 			(xy 82.55 228.6) (xy 83.82 228.6)
 		)
 		(stroke
@@ -7013,6 +6909,16 @@
 			(type default)
 		)
 		(uuid "870c46a8-889f-4db7-a656-75e5b762cc41")
+	)
+	(wire
+		(pts
+			(xy 332.74 41.91) (xy 344.17 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872b8a1f-fe7f-481f-9714-9a4f919bbf0b")
 	)
 	(wire
 		(pts
@@ -7226,16 +7132,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 46.99) (xy 332.74 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93bfa543-49ab-4a7f-82e0-58c0dd63edb8")
-	)
-	(wire
-		(pts
 			(xy 59.69 87.63) (xy 74.93 87.63)
 		)
 		(stroke
@@ -7323,16 +7219,6 @@
 			(type default)
 		)
 		(uuid "972ed2dd-639e-4805-b548-029319b48a98")
-	)
-	(wire
-		(pts
-			(xy 332.74 44.45) (xy 334.01 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9769ceee-b3bd-4f4c-846e-5a0d1d98a246")
 	)
 	(wire
 		(pts
@@ -7566,7 +7452,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 41.91) (xy 332.74 44.45)
+			(xy 332.74 36.83) (xy 332.74 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7683,16 +7569,6 @@
 			(type default)
 		)
 		(uuid "b078acc9-8075-42b7-aafd-ec404ae28d28")
-	)
-	(wire
-		(pts
-			(xy 157.48 41.91) (xy 160.02 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3654c19-1352-40e9-bba8-1a6d3eb9934a")
 	)
 	(wire
 		(pts
@@ -7896,16 +7772,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 36.83) (xy 332.74 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7325ace-7a8c-4a05-8837-391fa943e960")
-	)
-	(wire
-		(pts
 			(xy 238.76 26.67) (xy 231.14 26.67)
 		)
 		(stroke
@@ -8103,6 +7969,16 @@
 			(type default)
 		)
 		(uuid "e051e2a0-c337-4031-aa1c-2fe71e3830c3")
+	)
+	(wire
+		(pts
+			(xy 306.07 162.56) (xy 306.07 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e100a7e1-ec78-40a3-88fa-7c03be35b88c")
 	)
 	(wire
 		(pts
@@ -8386,16 +8262,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 44.45) (xy 332.74 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f424b1ee-1eeb-4219-9109-2bfeb600d3b9")
-	)
-	(wire
-		(pts
 			(xy 195.58 52.07) (xy 195.58 54.61)
 		)
 		(stroke
@@ -8423,16 +8289,6 @@
 			(type default)
 		)
 		(uuid "f62b85f3-a013-4a82-af87-2bf953c88262")
-	)
-	(wire
-		(pts
-			(xy 344.17 41.91) (xy 345.44 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f683f0b1-0f81-4d07-a3d3-715836a8b895")
 	)
 	(wire
 		(pts
@@ -16469,6 +16325,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 48.26 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b3e7694-02ef-4ef7-97fb-d899ef9eff79")
+		(property "Reference" "#PWR0205"
+			(at 53.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Input 5V- 32V"
+			(at 56.134 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2532ff83-be52-42ce-a380-371bd0a2beb4")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.93 100.33 0)
 		(unit 1)
@@ -18065,88 +17998,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 339.09 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36836b31-7b9b-4df7-ac6f-b3395e3809cb")
-		(property "Reference" "JP6"
-			(at 339.09 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 339.09 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 339.09 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 339.09 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34fad4c1-684a-4613-9b7f-89ea3c4ef5ea")
-		)
-		(pin "2"
-			(uuid "2dfe8f43-a241-4e5e-bf56-67d69ec00fcb")
-		)
-		(instances
-			(project "Audio_Amplifier d class"
-				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
-					(reference "JP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 93.98 269.24 0)
 		(unit 1)
@@ -18297,6 +18148,83 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "VD5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 306.07 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "38c933f5-e490-4670-a32f-bd08ccf1cd9a")
+		(property "Reference" "#PWR0204"
+			(at 311.15 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Input 5V- 32V"
+			(at 313.944 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3323df5d-1eec-4d66-ae8e-b1db4b0c64bc")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -18692,83 +18620,6 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "VD7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 48.26 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4c124484-bf13-4e32-a07b-729a28f27a89")
-		(property "Reference" "#PWR035"
-			(at 53.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 53.34 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0bb393c3-489b-4b6a-9258-a9fffbb30eab")
-		)
-		(instances
-			(project "Audio_Amplifier d class"
-				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -19209,16 +19060,10 @@
 			(uuid "531e1412-3029-4900-ad22-9453dd6cb5fa")
 		)
 		(pin "3"
-			(uuid "26095a65-dbfb-47e1-8cd6-7b68bde155c4")
-		)
-		(pin "6"
 			(uuid "46124447-1fbc-4470-b14b-bb0b33c30aa4")
 		)
-		(pin "4"
+		(pin "3"
 			(uuid "8b78dea3-310a-4f63-b920-f477932be029")
-		)
-		(pin "5"
-			(uuid "63ae2b91-3a4a-4341-8528-b7e154f480cd")
 		)
 		(instances
 			(project "Audio_Amplifier d class"
@@ -19380,88 +19225,6 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 339.09 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56c5894a-a4ca-485a-b65c-f2ed67ea5810")
-		(property "Reference" "JP4"
-			(at 339.09 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 339.09 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 339.09 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339.09 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 339.09 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4447b72e-812f-46ef-8b54-106e9afc369e")
-		)
-		(pin "2"
-			(uuid "f15de39e-f4d4-4465-904a-e0feb1ccb960")
-		)
-		(instances
-			(project "Audio_Amplifier d class"
-				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
-					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -22168,6 +21931,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 401.32 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8927d6e5-baf2-49b3-b93d-7817099eb8bc")
+		(property "Reference" "#PWR0202"
+			(at 406.4 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 406.4 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 401.32 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 401.32 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da4042a9-8c23-477f-93da-92f88e0ec914")
+		)
+		(instances
+			(project "Audio_Amplifier d class"
+				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 20.32 247.65 0)
 		(mirror y)
@@ -22734,88 +22574,6 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "#PWR0224")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 339.09 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96efedea-b283-4eeb-b5bf-493b22312fe3")
-		(property "Reference" "JP5"
-			(at 339.09 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 339.09 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 339.09 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339.09 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 339.09 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65ad429e-7265-407d-8c03-f08081be8171")
-		)
-		(pin "2"
-			(uuid "a58732e6-df52-40ad-aeb2-4a53e0e3c6a2")
-		)
-		(instances
-			(project "Audio_Amplifier d class"
-				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
-					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -26406,7 +26164,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-50xx"
 			(at 382.27 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -27466,23 +27224,17 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "a48b00dc-260f-4117-8ba1-45ec3ba05a58")
-		)
 		(pin "2"
 			(uuid "5d06c254-7e0c-444f-aeb7-926942a385cb")
 		)
 		(pin "3"
 			(uuid "c334e1b6-2b2a-479a-b581-f4a8ad6562db")
 		)
-		(pin "6"
+		(pin "1"
 			(uuid "0d38b474-f1f3-4a80-89a8-5d310906d875")
 		)
 		(pin "4"
 			(uuid "8d1f81e1-b3db-48a1-8800-2b6dd7cc9efe")
-		)
-		(pin "5"
-			(uuid "b58d5a5a-7470-493a-a13e-9df4a6e03016")
 		)
 		(instances
 			(project "Audio_Amplifier d class"
