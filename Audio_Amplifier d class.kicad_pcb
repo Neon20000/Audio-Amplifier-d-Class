@@ -7445,7 +7445,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Ne555Vdd")
+			(net "Input 5V- 32V")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "3c917b1d-f837-49c8-8945-cda3b9e9d6ba")
@@ -23358,7 +23358,7 @@
 		(units
 			(unit
 				(name "A")
-				(pins "1" "2" "3")
+				(pins "1" "2" "3" "4")
 			)
 		)
 		(attr smd)
@@ -23486,6 +23486,9 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "Net-(JP12-A)")
+			(pinfunction "4_4")
+			(pintype "passive")
 			(uuid "2b1c2696-4dd4-4523-b9b4-ad8e0c041cac")
 		)
 		(embedded_fonts no)
