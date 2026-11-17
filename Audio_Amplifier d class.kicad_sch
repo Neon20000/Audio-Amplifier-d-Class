@@ -4581,12 +4581,6 @@
 		(uuid "212a44df-98db-4312-9e38-15771a4a283a")
 	)
 	(junction
-		(at 123.19 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2162d635-b64f-4960-add3-d98f105f9a33")
-	)
-	(junction
 		(at 48.26 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4957,12 +4951,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5aca9fb-0d26-496d-bc23-b751e97ed167")
-	)
-	(junction
-		(at 140.97 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6e64602-bde3-460c-b21c-f3014e8e0804")
 	)
 	(junction
 		(at 59.69 87.63)
@@ -5352,7 +5340,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 200.66) (xy 123.19 207.01)
+			(xy 123.19 198.12) (xy 123.19 207.01)
 		)
 		(stroke
 			(width 0)
@@ -5779,16 +5767,6 @@
 			(type default)
 		)
 		(uuid "39b1e510-9154-43d5-a138-345f19339fee")
-	)
-	(wire
-		(pts
-			(xy 140.97 200.66) (xy 140.97 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39c08a38-3167-4bee-931b-f44f5ad1b357")
 	)
 	(wire
 		(pts
@@ -7402,16 +7380,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 198.12) (xy 123.19 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a629cdec-0194-4041-b8ef-b2fcb193cab3")
-	)
-	(wire
-		(pts
 			(xy 125.73 25.4) (xy 125.73 27.94)
 		)
 		(stroke
@@ -8302,16 +8270,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 200.66) (xy 140.97 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f98a92e0-67db-4782-acc0-f4c5eb14a002")
-	)
-	(wire
-		(pts
 			(xy 207.01 44.45) (xy 207.01 41.91)
 		)
 		(stroke
@@ -8339,16 +8297,6 @@
 			(type default)
 		)
 		(uuid "fa329041-1616-4431-81b4-fb101cd27aae")
-	)
-	(wire
-		(pts
-			(xy 123.19 200.66) (xy 127 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fabb285c-dd5a-46e9-824c-58a25546eba2")
 	)
 	(wire
 		(pts
@@ -17464,7 +17412,7 @@
 				)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 134.62 208.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17474,7 +17422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 134.62 206.0448 0)
 			(hide yes)
 			(show_name no)
@@ -24825,85 +24773,6 @@
 			(project "Audio_Amplifier d class"
 				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 130.81 200.66 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c453c44f-8297-4888-a3f5-a480e51adc1e")
-		(property "Reference" "C32"
-			(at 127.762 202.184 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22u"
-			(at 134.62 202.184 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 134.62 199.6948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 130.81 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b2c089fa-87b3-4862-9009-b55450d68623")
-		)
-		(pin "1"
-			(uuid "e2302501-eb7d-4f7e-964a-99bc0c6f5939")
-		)
-		(instances
-			(project "Audio_Amplifier d class"
-				(path "/088a2d00-6d5e-433a-8415-5bcf8a86884c"
-					(reference "C32")
 					(unit 1)
 				)
 			)
